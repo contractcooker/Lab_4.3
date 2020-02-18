@@ -10,7 +10,7 @@ namespace Lab_4._3_UnitTest
 
             while (true)
             {
-                Console.WriteLine("Which prime number are you looking for? Please enter a number from 1-10: ");
+                Console.WriteLine($"Which prime number are you looking for? Please enter a number from 1-{PrimeSequence.Count}: ");
                 int input = int.Parse(Console.ReadLine());
                 Console.WriteLine($"The number {input} prime is {PrimeSequence.GetPrime(input)}"); 
             }
